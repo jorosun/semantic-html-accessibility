@@ -62,6 +62,13 @@ li a {
   text-decoration: none;
 }
 
+img {
+  border-radius: 8px;
+  width: 250px;
+  height: 300px;
+  float: left;
+}
+
 .flex-container {
   display: flex;
   width: 100%;
