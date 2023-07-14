@@ -1,0 +1,97 @@
+body {
+  margin: 1 em;
+  font: Helvetica;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background-color: gold;
+  font-size: 2.2em;
+  color: black;
+}
+
+h1 {
+  color: black;
+  background-color: gold;
+  text-align: center;
+  font-size: 2.2em;
+}
+
+h2 {
+  color: black;
+  background-color: lightyellow;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+h3 {
+  color: black;
+  background-color: lightyellow;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+p {
+  color: darkslategrey;
+  font-size: 1.2em;
+}
+
+.welcome img {
+  height: 300px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: yellow;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2em;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  background-color: lightyellow;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+.welcome {
+  /*display: inline-block;*/
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  color: #08092559;
+  background-color: #b0cfe0;
+}
+
+.how_to_video {
+  /* display: inline-block; */
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+  background-color: #b0cfe0;
+}
+.feedback-form {
+  /*display: inline-block;*/
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background-color: #b0cfe0;
+}
